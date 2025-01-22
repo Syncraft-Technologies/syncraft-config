@@ -31,7 +31,7 @@ Each printer model has its own directory and `.cfg` file, both named after the m
 	git clone https://github.com/Syncraft-Technologies/syncraft-config.git
 	ln -s ~/syncraft-config printer_data/config/syncraft-config
 	```
-2. Include the model's file in your main Klipper configuration (`printer.cfg`):
+2. Include the model's file in your main Klipper configuration (`~/printer_data/config/printer.cfg`):
 	```conf
 	[include syncraft-config/<model_name>.cfg]
 	```
