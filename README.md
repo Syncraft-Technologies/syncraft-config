@@ -12,6 +12,7 @@ Each printer model has its own directory and `.cfg` file, both named after the m
 
 ```
 ├── common
+│   └── extras
 ├── <model_a>
 │   ├── extras
 │   └── README.md
@@ -36,3 +37,12 @@ Each printer model has its own directory and `.cfg` file, both named after the m
 	[include syncraft-config/<model_name>.cfg]
 	```
 3. Check the model's `README.md` for more instructions.
+
+### Moonraker configuration
+
+Since Moonraker configuration allow includes, you can include the common and specific configuration files in your `~/printer_data/config/moonraker.conf` file:
+
+```conf
+[include syncraft-config/common/extras/moonraker.conf]
+[include syncraft-config/<model_name>/extras/moonraker.conf]
+```
