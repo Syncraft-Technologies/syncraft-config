@@ -9,3 +9,7 @@ canbus_uuid = <mcu_id>
 [mcu rp2040]
 canbus_uuid = <mcu_id>
 ```
+
+## Moonraker configuration
+
+Include only the local `moonraker.conf`, not `common/extras/moonraker.conf`.
