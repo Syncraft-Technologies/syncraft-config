@@ -29,7 +29,11 @@ Each printer model has its own directory and `.cfg` file, both named after the m
 1. Clone the repository and link it to your Klipper configuration directory:
 	```bash
 	cd ~
+	```
+	```bash
 	git clone https://github.com/Syncraft-Technologies/syncraft-config.git
+	```
+	```bash
 	ln -s ~/syncraft-config printer_data/config/syncraft-config
 	```
 2. Include the model's file in your main Klipper configuration (`~/printer_data/config/printer.cfg`):
