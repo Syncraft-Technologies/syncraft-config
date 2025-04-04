@@ -27,7 +27,7 @@ G21 ; set units to millimeters
 G90 ; use absolute positioning
 M82 ; absolute extrusion mode
 M104 T0 S150 ; set extruder temp
-_SYNC_EXTRUDERS_TEMP
+_idexSyncExtrudersTemp
 set_bed_temperature
 G28 Z ; home z
 M109 T0 S150
