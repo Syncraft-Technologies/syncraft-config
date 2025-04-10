@@ -34,7 +34,7 @@ M109 T0 S150
 G28 XY; home XY
 START_GCODE
 set_calibration_temperature T=0 R=1
-PRIME_ROUTINE
+_primeRoutine
 G92 E0
 T0
 G92 E0
