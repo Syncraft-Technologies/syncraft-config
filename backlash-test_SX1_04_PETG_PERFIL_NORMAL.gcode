@@ -25,7 +25,7 @@ M109 S150
 G28 XY; home XY
 START_GCODE
 M109 S255 ; wait for extruder temp
-_primeRoutine
+PRIME_ROUTINE
 G92 E0
 G92 E0
 G1 F2400 E-10
